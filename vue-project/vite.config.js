@@ -1,14 +1,11 @@
-import { fileURLToPath, URL } from 'node:url'
-
+// vite.config.js
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
+import { fileURLToPath, URL } from 'node:url'
 
-
-
-// ✅ Correct version
 export default defineConfig({
-  base: '/E-ibtikar/',   // ✅ this goes at the root level (not inside plugins)
+  base: '/EE-ibtikar/', // ✅ base goes here, not inside plugins!
   plugins: [
     vue(),
     vueDevTools()
