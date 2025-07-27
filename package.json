@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sallabi12/EE-ibtikar/issues"
   },
-  "homepage": "https://github.com/sallabi12/EE-ibtikar#readme"
+  "homepage": "https://github.com/sallabi12/EE-ibtikar#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
