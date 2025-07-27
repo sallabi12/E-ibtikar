@@ -5,7 +5,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  base: '/EE-ibtikar/', // ✅ base goes here, not inside plugins!
+  base: '/EE-ibtikar/', // Make sure your router and deployment use '/EE-ibtikar/' as the root path
   plugins: [
     vue(),
     vueDevTools()
